@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid black;
+}
+.Homebtn button {
+    height: 100%;
+    width: 120px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    border: 0;
+    
+}
+.Homebtn button:hover{
+    background-color: gray;
+    color: black;
+    cursor: pointer;
+}
+.Linkbtn button {
+    height: 100%;
+    width: 120px;
+    background-color: orangered;
+    color: white;
+    font-size: 25px;
+    border: 0;
+}
+.Linkbtn button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.startpage {
+    
+}

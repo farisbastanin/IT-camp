@@ -1,0 +1,219 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, rgb(106, 3, 250) , rgb(248, 3, 166));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.kartica {
+    height: 600px;
+    width: 50%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.slika {
+    position:absolute;
+    top: 45px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 150px; 
+    height: 150px;
+    border-radius: 100%; 
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border: 7px solid rgb(92, 18, 241);
+}
+.header {
+    margin-top: 130px;
+    color: rgb(92, 18, 241);
+    font-weight: 700;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header2 {
+    font-size: 17px;
+    margin-top: 10px;
+    font-weight: 200;
+    margin-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.lokacija {
+    font-size: 20px;
+    width: 100%;
+    height: 22px;
+    margin-top: 15px;
+    font-weight: 200px;
+    display: flex;
+    flex-direction: row;
+}
+.ikonicalok {
+    width: 42%;
+    height: 22px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 22px;
+}
+.lokacijatxt {
+    width: 58%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.istanbul {
+    font-weight: 200;
+    font-size: 20px;
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.brojevi {
+    display: flex;
+    height: 30px;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.flw {
+    display: flex;
+    height: 10px;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 15px;
+    font-weight: 300;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.ikonice {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    width: 80%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.facebook {
+    height: 100%;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+
+.twitter {
+    height: 100%;
+    width: 50px;
+    background-color: rgb(0, 76, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.instagram {
+    height: 100%;
+    width: 50px;
+    background: linear-gradient(to top right, rgb(217, 3, 250) , rgb(248, 3, 93));
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.brl {
+    height: 100%;
+    width: 50px;
+    background-color: rgb(30, 97, 252);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.github {
+    height: 100%;
+    width: 50px;
+    background-color: rgb(43, 50, 66);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.tiktok {
+    height: 100%;
+    width: 50px;
+    background-color: rgb(15, 25, 47);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.link {
+    height: 100%;
+    width: 50px;
+    background-color: rgb(251, 63, 16);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+}
+.buttoni {
+    height: 150px;
+    width: 80%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button1 {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(29, 96, 254);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+}
+.button2 {
+    height: 40px;
+    width: 150px;
+    background-color: rgb(251, 63, 16);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 20px;
+}
