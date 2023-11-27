@@ -7,7 +7,7 @@ body {
 
 .container {
     width: 100%;
-    height: 900px;
+    height: 1200px;
     display: flex;
     background-color: rgb(226, 226, 209);
 }
@@ -21,6 +21,7 @@ body {
     margin-top: 20px;
     border-radius: 5px;
     box-shadow: 7px 7px 10px grey;
+    position: fixed;
 }
 
 .slika {
@@ -30,11 +31,13 @@ body {
     align-items: end;
     justify-content: start;
     background-color: grey;
+    background-image: url(unnamed.jpg);
 }
 .Faris {
     padding-left: 20px;
     padding-bottom: 20px;
     font-size: 30px;
+    color: white;
 }
 
 .contact {
@@ -60,9 +63,9 @@ body {
 }
 
 .desnidiv {
-    height: 750px;
+    height: 1100px;
     width: 900px;
-    margin-left: 60px;
+    margin-left: 550px;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -108,7 +111,7 @@ body {
 }
 
 .iconice {
-    margin-top: 850px;
+    margin-top: 1150px;
     position: absolute;
     margin-left: 48%;
     font-size: 25px;
@@ -165,12 +168,42 @@ body {
     margin-top: 20px;
 }
 
+.foreign {
+    font-size: 25px;
+    font-weight: 700; 
+    margin-left: 32px;
+    margin-top: 20px;
+}
+
+.eng {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+
+.ger {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
 .year {
     font-size: 22px;
     font-weight: 500;
     margin-top: 5px;
     margin-left: 40px;
 }
+
+.abbi {
+    font-size: 27px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-top: 1px solid black;
+}
+
 
 
 .cc {
@@ -204,6 +237,7 @@ body {
     font-weight: 700;
     margin-top: 30px;
     margin-left: 25px;
+    border-top: 1px solid black;
 }
 
 .Beyond {
@@ -219,6 +253,7 @@ body {
     font-weight: 700;
     margin-top: 30px;
     margin-left: 25px;
+    border-top: 1px solid black;
 }
 
 .future {
