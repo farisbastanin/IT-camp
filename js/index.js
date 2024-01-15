@@ -166,3 +166,24 @@
 //       break;
 //   }
 // }
+const arr = [1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6,1,2,3,4,5,6];
+// const sab = arr[0] + arr[1] + arr[2] + arr[3] + arr[4] + arr[5];
+
+// console.log (sab)
+
+let resp = 0
+let resnp = 0
+
+let counter = arr.length - 1;
+while (counter >= 0) {
+  if (arr[counter] % 2 == 0) {
+    resp = resp + arr[counter]
+  }
+  else if (arr[counter] % 2 ==1) {
+    resnp = resnp + arr[counter]
+  }
+
+  counter--
+}
+console.log (resp)
+console.log (resnp)
