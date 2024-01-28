@@ -194,18 +194,152 @@
 //   console.log(arrTest[index])
 //   index++;
 // }
-let parni = [];
-let nep = [];
-const arrTest = [1,2,3,4,5,6,7,8,9,10,11,12]
-let counter = arrTest.length - 1;
-while (counter >= 0) {
-  if (arrTest[counter] % 2 == 0) {
-    parni.push(arrTest[counter])
-  }
-  else if (arrTest[counter] % 2 ==1) {
-    nep.push(arrTest[counter])
-  }
-  counter--;
+// let parni = [];
+// let nep = [];
+// const arrTest = [1,2,3,4,5,6,7,8,9,10,11,12]
+// let counter = arrTest.length - 1;
+// while (counter >= 0) {
+//   if (arrTest[counter] % 2 == 0) {
+//     parni.push(arrTest[counter])
+//   }
+//   else if (arrTest[counter] % 2 ==1) {
+//     nep.push(arrTest[counter])
+//   }
+//   counter--;
+// }
+
+// console.log ("ovo su parni brojevi:", parni,"ovo su neparni brojevi:" , nep)
+// const username = "faris"
+// const password = "faris123"
+// let unosUsername = ""
+// let unosPassword = ""
+
+// while(username !== unosUsername) {
+//   unosUsername = prompt("unesite username")
+//   if(unosUsername !== username) {
+//     alert("pogresili ste username ili password")
+//   }
+// }
+
+// while(password !== unosPassword) {
+//   unosPassword = prompt("unesite password")
+//   if(unosPassword !== password) {
+//     alert("pogresili ste username ili password")
+//   }
+// }
+
+// alert("uspesno ste se ulogovali")
+
+// window.location.replace("file:///C:/Users/HomePC/Desktop/program/seda/projekat/index.html")
+// const arr = [1,2,3,4,5,6,7]
+// const reversearr = [];
+// 7,6,5,4,3,2,1
+
+// for (let i = arr.length -1; i >= 0; i--) {
+//   reversearr.push(arr[i])
+// }
+
+// console.log (reversearr,"reversearr")
+
+// const arr = [1,2,3,4,5,6,7]
+// const arr2 = [1,3,3,5,6,7,8]
+// const newarr = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] == arr2[i]) {
+//    newarr.push(arr[i])
+//   }
+  
+// }
+// console.log(newarr)
+// const arr2 = [[1,2,3], [1,2,3], [1,2,3]];
+// let arrnew = [];
+
+// for (let i = 0; i < arr2.length; i++) {
+//   for (let j = 0; j < arr2.length; j++) {
+//   arrnew.push(arr2[i][j])
+    
+//   }
+  
+// }
+// console.log(arrnew)
+
+// const domaciArr = [[1,2,3],[4,5,6,],[7,8,9]]
+// const noviDomaciArr =[]
+// for (let i = domaciArr.length-1, j=0; i >= 0 ; i--,j++) {
+//   noviDomaciArr.push(domaciArr[j][i])
+// }
+// console.log(noviDomaciArr)
+
+
+// const test = "ime-prezime"
+// const novitest = test.split("-")
+// console.log (novitest)
+
+// let broj = prompt("unesite broj")
+// for (let i = 1; i < broj; i++) {
+//     let zvezdice = ""
+//     for (let j = 1; j <= i; j++) {
+//         zvezdice += "*"
+//     }
+//     console.log (zvezdice)
+// }
+//  const arr1 = [1,2,3,4,5,6,7,8,9]
+//  const arr3 = [2,2,3,1,5,6,7,21,5,76,8,9]
+//  let arr4 = [];
+
+
+// const zadatakZadaca = [12,32,32,321,213,3213,1313131,313131]
+
+
+// const  bucanResenje = zadatakZadaca.map((el,i,arr) => {
+//     if(i === 0){
+//        return el;
+//     }
+//     else {
+//         if(el % 2 === 0){
+//             return el-arr[i-1]
+//         }
+//         else  {
+//             return el
+//         }    }
+// })
+
+// console.log(bucanResenje);
+                                        //   jelkaaa domaci
+let n = 30;
+let step = 2;
+for (let i = 1; i <= n; i += step) {
+  console.log(" ".repeat((n - i) / 2) + "*".repeat(i) + " ".repeat((n - i) / 2));
+}
+                                        //   zadatak 3
+function simetricnost(array) {
+    for (let i = 0; i < array.length / 2; i++) {
+        if (array[i] !== array[array.length - 1 - i]) {
+            return false;
+        }
+    }
+    return true;
 }
 
-console.log ("ovo su parni brojevi:", parni,"ovo su neparni brojevi:" , nep)
+const simetricniarr = [1, 2, 3, 2, 1];
+const nesimetricniarr = [1, 2, 3, 4, 5];
+
+console.log(simetricnost(simetricniarr), "ako pise true onda je simetrican/false nije simetrican");
+console.log(simetricnost(nesimetricniarr), "ako pise true onda je simetrican/false nije simetrican"); 
+                                        // zadatak 1
+function ponavljanje(array, element) {
+    let count = 0;
+     for (let i = 0; i < array.length; i++) {
+        if (array[i] === element) {
+            count++;
+        }
+    }
+    return count;
+}
+
+const arrSaElementima = [1, 3, 7, 3, 3, 2, 1];
+const element = 3;
+
+const kolikoput = ponavljanje(arrSaElementima, element);
+console.log(`Element ${element} se pojavljuje ${kolikoput} puta u nizu.`);                            
