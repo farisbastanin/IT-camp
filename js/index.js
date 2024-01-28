@@ -313,6 +313,9 @@ for (let i = 1; i <= n; i += step) {
   console.log(" ".repeat((n - i) / 2) + "*".repeat(i) + " ".repeat((n - i) / 2));
 }
                                         //   zadatak 3
+                                        console.log (" ")
+                                        console.log (" ")
+                                        // zadatak 3
 function simetricnost(array) {
     for (let i = 0; i < array.length / 2; i++) {
         if (array[i] !== array[array.length - 1 - i]) {
@@ -327,6 +330,9 @@ const nesimetricniarr = [1, 2, 3, 4, 5];
 
 console.log(simetricnost(simetricniarr), "ako pise true onda je simetrican/false nije simetrican");
 console.log(simetricnost(nesimetricniarr), "ako pise true onda je simetrican/false nije simetrican"); 
+                                        // zadatak 1
+                                        console.log (" ")
+                                        console.log (" ")
                                         // zadatak 1
 function ponavljanje(array, element) {
     let count = 0;
