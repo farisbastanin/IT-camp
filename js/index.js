@@ -307,45 +307,215 @@
 
 // console.log(bucanResenje);
                                         //   jelkaaa domaci
-let n = 30;
-let step = 2;
-for (let i = 1; i <= n; i += step) {
-  console.log(" ".repeat((n - i) / 2) + "*".repeat(i) + " ".repeat((n - i) / 2));
-}
-                                        //   zadatak 3
-                                        console.log (" ")
-                                        console.log (" ")
-                                        // zadatak 3
-function simetricnost(array) {
-    for (let i = 0; i < array.length / 2; i++) {
-        if (array[i] !== array[array.length - 1 - i]) {
-            return false;
-        }
-    }
-    return true;
-}
+// let n = prompt("unesite koliko spratova zvezdica zelite");
+// let step = 2;
+// for (let i = 1; i <= n; i += step) {
+//   console.log(" ".repeat((n - i) / 2) + "*".repeat(i) + " ".repeat((n - i) / 2));
+// }
+//                                         //   zadatak 3
+//                                         console.log (" ")
+//                                         console.log (" ")
+//                                         // zadatak 3
+// function simetricnost(array) {
+//     for (let i = 0; i < array.length / 2; i++) {
+//         if (array[i] !== array[array.length - 1 - i]) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
 
-const simetricniarr = [1, 2, 3, 2, 1];
-const nesimetricniarr = [1, 2, 3, 4, 5];
+// const simetricniarr = [1, 2, 3, 2, 1];
+// const nesimetricniarr = [1, 2, 3, 4, 5];
 
-console.log(simetricnost(simetricniarr), "ako pise true onda je simetrican/false nije simetrican");
-console.log(simetricnost(nesimetricniarr), "ako pise true onda je simetrican/false nije simetrican"); 
-                                        // zadatak 1
-                                        console.log (" ")
-                                        console.log (" ")
-                                        // zadatak 1
-function ponavljanje(array, element) {
-    let count = 0;
-     for (let i = 0; i < array.length; i++) {
-        if (array[i] === element) {
-            count++;
-        }
-    }
-    return count;
-}
+// console.log(simetricnost(simetricniarr), "ako pise true onda je simetrican/false nije simetrican");
+// console.log(simetricnost(nesimetricniarr), "ako pise true onda je simetrican/false nije simetrican"); 
+//                                         // zadatak 1
+//                                         console.log (" ")
+//                                         console.log (" ")
+//                                         // zadatak 1
+// function ponavljanje(array, element) {
+//     let count = 0;
+//      for (let i = 0; i < array.length; i++) {
+//         if (array[i] === element) {
+//             count++;
+//         }
+//     }
+//     return count;
+// }
 
-const arrSaElementima = [1, 3, 7, 3, 3, 2, 1];
-const element = 3;
+// const arrSaElementima = [1, 3, 7, 3, 3, 2, 1];
+// const element = 3;
 
-const kolikoput = ponavljanje(arrSaElementima, element);
-console.log(`Element ${element} se pojavljuje ${kolikoput} puta u nizu.`);                            
+// const kolikoput = ponavljanje(arrSaElementima, element);
+// console.log(`Element ${element} se pojavljuje ${kolikoput} puta u nizu.`);               
+// const kemal = [1,2,3,4,5,63,4353];
+// const veljko = [2,3,42,24,42,35,52];
+// let kemalveljko = [];
+
+// kemalveljko = kemal.concat(veljko)
+
+// console.log(kemalveljko)
+
+// const svi = [1,2,3,4,4324324,23423,234,1231]
+
+// let samoNeparni = [];
+// for (let i = 0; i < svi.length; i++) {
+//     if (svi[i] % 2 !== 0 ) { samoNeparni.push(svi[i])
+        
+//     }
+    
+// }
+// console.log(samoNeparni)
+
+
+// const samoNeparnisafilterom = svi.filter((el) => el % 2 !==)
+
+// console.log(samoNeparnisafilterom)
+
+// console.log(samoNeparni.includes(1);
+
+// const bazaPodataka = ["ahmed","faris","sergejbit"];
+// const sergejbezbita = []
+// bazaPodataka.forEach((el) => {
+//     if (el === "sergejbit") {
+//         sergejbezbita.push("sergej")
+        
+//     } 
+// }
+// )
+// console.log(sergejbezbita)
+
+// const imateImamo = [[1,2,3,32],[23232,323232]]
+// const flex = imateImamo.flat(2)
+// console.log(flex);
+// const imateImamo1 = [1,2,3,32,23232,323232]
+// console.log(imateImamo1.some((el) => el > 2));
+// const kemal2 = {
+//     ime:"Kemal",
+//     prezime: "Skrijelj",
+//     godine:18,
+//     hobi:["kosarka","ispijanje kafe","programiranje"],
+//     lokacija:{
+//         grad:"Novi Zarpa",
+//         drzava:"Srbija"
+//     }
+// }
+
+// kemal2.ime = "test"
+
+
+// let test321 = "t"
+
+// console.log(test321);
+
+// test321 = "23"
+
+// console.log(test23);
+
+// console.log(kemal2);
+
+// const imeunos = prompt("unesite vase ime")
+// const prezimeunos = prompt("unesite vase prezime")
+// const godineunos = prompt("unesite vase godine")
+
+// const ovo = {
+//     ime : "",
+//     prezime : "",
+//     godine: "",
+// }
+// ovo.ime = imeunos
+// ovo.prezime = prezimeunos
+// ovo.godine = godineunos
+
+// console.log (ovo)
+
+// const User = {
+//     korisnickoIme:"",
+//     sifra:"",
+//     email:"",
+// }
+
+// while (User.korisnickoIme.length > 3) {
+//     User.korisnickoIme = prompt("unresite korsnicko ime")
+// }
+// while (User.sifra.length > 3) {
+//     User.sifra = prompt("unesite sifru")
+// }
+// while (User.email.includes("@")) {
+//     User.email = prompt("unesite email")
+// }
+
+// const arr = [1,23232,1231231,1,132123,111,1,23,23,1];
+// const put = {
+
+// }
+// const myCar = {
+//     id: 1,
+//     marka: "Audi",
+//     model: "a4",
+//     boja: "Crvena",
+//     pogon: "prednji",
+//     menjac: "automatski",
+//     kontakt: [0o622222, 0o2033322],
+//     servis: {
+//       datum: "04,maj",
+//       km: 23000,
+//       serviser: "Pasovic",
+//     },
+//     udaran: true,
+    
+//     trenutnaBrzina: 0,
+//     maksimalnaBrzina: 260,
+//     povecanjeBrzine: function(brzina) {
+//       if (this.trenutnaBrzina + brzina <= this.maksimalnaBrzina) {
+//         this.trenutnaBrzina += brzina;
+//         console.log("Brzina je povećana za " + brzina + " km/h.");
+//       } else {
+//         console.log("Dostignuta je maksimalna brzina.");
+//       }
+//     },
+//     smanjenjeBrzine: function(brzina) {
+//       if (this.trenutnaBrzina - brzina >= 0) {
+//         this.trenutnaBrzina -= brzina;
+//         console.log("Brzina je smanjena za " + brzina + " km/h.");
+//       } else {
+//         console.log("Brzina ne može biti manja od nule.");
+//       }
+//     },
+//     koci: function() {
+//       this.trenutnaBrzina = 0;
+//       console.log("Vozilo je zaustavljeno.");
+//     }
+//   };
+  
+//   console.log("Trenutna brzina prije ubrzanja:", myCar.trenutnaBrzina);
+//   myCar.povecanjeBrzine (prompt("unesite koliko je auto ubrzao"));
+//   console.log("Trenutna brzina nakon ubrzanja:", myCar.trenutnaBrzina);
+  
+//   console.log("Trenutna brzina prije kočenja:", myCar.trenutnaBrzina);
+//   myCar.koci();
+//   console.log("Trenutna brzina nakon kočenja:", myCar.trenutnaBrzina);
+// class ja {
+//   constructor(ime,prezime,godiste){
+//     this.ime = ime,
+//     this.prezime = prezime,
+//     this.godiste = godiste
+//   }
+// }
+
+// const jaaa = new ja("Faris","bastanin",2008)
+// const starost = (2024 - jaaa.godiste)
+// console.log("vasa starost je:",starost)
+// const person = [
+//     {
+//         ucenik: {
+//             skola: ['Osnovna', 'Srednja'],
+//             informacija: {Ime: "ime", prezime: "prezime"}
+//         },
+//     }
+
+    
+// ]
+
+// console.log (person[0][1][1])
