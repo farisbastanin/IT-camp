@@ -519,3 +519,68 @@
 // ]
 
 // console.log (person[0][1][1])
+// class zivotinje {
+//     constructor(ime,boja,starost) {
+//         this.ime = ime,
+//         this.boja = boja,
+//         this.starost = starost
+//     }
+// }
+
+// class macke extends zivotinje {
+//     constructor(ime,boja,starost,vrsta) {
+//         super(ime,boja,starost)
+//         this.vrsta = vrsta
+//     }
+
+//     informacije(){
+//         console.log(this.ime,this.boja,this.starost,this.vrsta);
+//     }
+//     zvuk(){
+//         console.log("mjauuu")
+//     }
+// }
+
+// class psi extends zivotinje {
+//     constructor(ime,boja,starost,vrsta) {
+//         super(ime,boja,starost)
+//         this.vrsta = vrsta
+//     }
+//     informacije(){
+//         console.log(this.ime,this.boja,this.starost,this.vrsta);
+//     }
+//     zvuk(){
+//         console.log("avav")
+//     }
+// }
+
+// const maca = new macke("lea","crna",12,"ruska")
+// const pas = new psi("dzeki","zuta",13,"haski")
+
+// maca.informacije ();
+// pas.informacije ();
+// maca.zvuk ();
+// pas.zvuk();
+// const podaci = [{ime:"kemal",id:1}, {ime:"veljko",id:2},
+//                 {ime:"nadia",id:3}, {ime:"sergej",id:4},
+//                 {ime:"nerma",id:5}, {ime:"ahmed",id:6},
+//                 {ime:"mervan",id:7}, {ime:"faris",id:8},
+//                 {ime:"ahmed",id:9},]
+
+// const broj = Number(prompt("unesite koji page zelite"))
+
+// if (broj == 1) {
+//     console.log(podaci[0],podaci[1])
+// }
+// else if (broj == 2) {
+//     console.log(podaci[2],podaci[3])
+// }
+// else if (broj == 3) {
+//     console.log(podaci[4],podaci[5])
+// }
+// else if (broj == 4) {
+//     console.log(podaci[6],podaci[7])
+// }
+// else if (broj == 5) {
+//     console.log(podaci[8])
+// }
