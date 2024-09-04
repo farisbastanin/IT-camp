@@ -1,0 +1,11 @@
+.vote {
+  background: none;
+  padding: 0.6em 0.525em 0.2em;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.1em;
+}
+
+.vote:hover {
+  background: var(--joy-palette-neutral-200);
+}
